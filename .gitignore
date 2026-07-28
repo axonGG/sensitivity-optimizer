@@ -1,0 +1,12 @@
+# Executables
+*.exe
+
+# IDE files
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#Git
+.git
