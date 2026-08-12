@@ -9,4 +9,7 @@ typedef struct sens {
 
 ss generator(float base, char choice, int index);
 
+void tag();
+
+void title();
 #endif

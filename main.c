@@ -3,9 +3,12 @@
 
 int main() {
     float base;
+    tag();
+    title();
     printf("Enter base sensitivity: ");
     scanf("%f", &base);
     printf("\n");
+
     for (int i = 0; i < 7; i++) {
         char choice='\0';
         ss sent= generator(base,choice,i);
